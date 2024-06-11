@@ -26,18 +26,6 @@ pipeline {
             }
         }
 
-        stage('Check Unit Test'){
-            steps{
-
-            }
-        }
-
-        stage('SonarQue'){
-            steps{
-                
-            }
-        }
-        
         stage('Deploy') {
             steps {
                 script {
